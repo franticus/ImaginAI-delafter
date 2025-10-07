@@ -578,6 +578,16 @@ h1.display {
 }
 
 /* --- how v3 --- */
+.how {
+  width: 100%;
+  max-width: 1600px;
+  padding: 0 80px;
+
+  @media (max-width: 900px) {
+    padding: 0 10px;
+  }
+}
+
 .how-v3 {
   // padding-top: 26px;
   position: relative;
@@ -1476,7 +1486,7 @@ h1.display {
   position: relative;
   z-index: 1;
   width: 100%;
-  padding: 10px;
+  // padding: 10px;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
   align-items: flex-start;
@@ -1659,9 +1669,9 @@ h1.display {
   max-height: 235px;
   min-height: 235px;
   object-fit: cover;
-  border-radius: 14px;
-  border: 1px solid var(--line);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.45);
+  // border-radius: 14px;
+  // border: 1px solid var(--line);
+  // box-shadow: 0 10px 24px rgba(0, 0, 0, 0.45);
 }
 
 .member label {
@@ -3097,7 +3107,7 @@ h1.display {
   justify-content: space-evenly;
   flex-direction: row;
   gap: 15px;
-  padding-bottom: 25px;
+  // padding-bottom: 25px;
 
   @media (max-width: 900px) {
     flex: 0 0 auto;
