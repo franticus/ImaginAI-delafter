@@ -2459,10 +2459,10 @@ h1.display {
   .nm-row::after {
     content: "";
     position: absolute;
-    top: 25%;
+    top: 27%;
     right: 0;
     transform: translate(0%, -60%);
-    width: calc(95vw - 20px);
+    width: calc(100% - 20px);
     height: 1px;
     background: rgba(223, 223, 223, 0.2);
     z-index: 1001;
@@ -2477,11 +2477,11 @@ h1.display {
   }
 
   .nm-row2::after {
-    width: calc(90vw - 20px);
+    width: calc(95% - 20px);
   }
 
   .nm-row3::after {
-    width: calc(90vw - 20px);
+    width: calc(97% - 20px);
   }
 
   .nm-title2::after {
