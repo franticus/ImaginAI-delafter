@@ -3684,3 +3684,9 @@ h1.display {
 .foot-wrap {
   padding-bottom: 10px;
 }
+
+@media (max-width: 500px) {
+  .about_lead-footer {
+    max-width: 240px;
+  }
+}
