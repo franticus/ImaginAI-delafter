@@ -91,6 +91,7 @@ a {
   display: flex;
   width: 34%;
   min-width: 480px;
+  margin-right: 20px;
   justify-content: space-between;
 }
 
@@ -165,10 +166,15 @@ h1.display {
 /* --- hero v1 custom --- */
 .topbar--glass {
   width: 100%;
+  padding: 0 80px;
   display: flex;
   justify-content: center;
   background: transparent;
   border-bottom: none;
+
+  @media (max-width: 900px) {
+    padding: 0 10px;
+  }
 }
 
 .container {
@@ -1838,7 +1844,7 @@ h1.display {
 }
 
 /* === Mobile menu: full screen overlay === */
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
 
   .menu,
   .nav .cta {
@@ -2111,7 +2117,6 @@ h1.display {
 /* === Header responsive === */
 @media (max-width: 950px) {
   .nav--wide {
-    padding: 10px;
     gap: 15px;
   }
 
@@ -2778,12 +2783,6 @@ h1.display {
     background: rgba(0, 0, 0, 0.5) !important;
     z-index: 99998 !important;
   }
-}
-
-.logo-img {
-  width: 139px;
-  height: 24px;
-  object-fit: cover;
 }
 
 .container_header_img {
