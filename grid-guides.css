@@ -15,7 +15,7 @@
 	z-index: 9999;
 	opacity: 0.3;
 
-	// display: none;
+	display: none;
 }
 
 @media (max-width: 768px) {

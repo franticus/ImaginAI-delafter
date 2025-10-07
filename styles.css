@@ -43,9 +43,9 @@ a {
 }
 
 @media (max-width: 1024px) {
-  * {
-    max-width: none !important;
-  }
+  // * {
+  //   max-width: none !important;
+  // }
 
   .container,
   .nav--wide,
