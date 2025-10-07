@@ -1373,11 +1373,11 @@ h1.display {
 }
 
 .badge .dot {
-  width: 8px;
-  height: 8px;
+  width: 5px;
+  height: 5px;
   background: #ff2d8a;
   border-radius: 50%;
-  flex: 0 0 8px;
+  flex: 0 0 5px;
   margin-top: 9px;
 }
 
@@ -1435,9 +1435,9 @@ h1.display {
 /* subtle bracket around each group (top/right/left borders) */
 .group .bracket {
   position: absolute;
-  top: 13px;
-  bottom: 38px;
-  width: 20px;
+  top: 11px;
+  bottom: 39px;
+  width: 21px;
   border: 1px solid #2b2b30;
   border-left: none;
   pointer-events: none;
@@ -1456,8 +1456,9 @@ h1.display {
 }
 
 .group.right .bracket {
-  top: 13px;
-  bottom: 35px;
+  top: 11px;
+  bottom: 40px;
+  width: 20px;
 }
 
 @media (max-width: 1100px) {
