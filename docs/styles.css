@@ -3627,15 +3627,15 @@ h1.display {
     content: "";
     position: absolute;
     left: -11px;
-    top: 12px;
-    height: 512px;
+    top: 13px;
+    height: 510px;
     width: 1px;
     background: #3B3B3B;
     z-index: 1;
   }
 
   .group.right {
-    padding-left: 42px;
+    padding-left: 41px;
   }
 
   .badge_left_1,
