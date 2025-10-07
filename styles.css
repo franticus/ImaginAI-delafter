@@ -1539,6 +1539,37 @@ h1.display {
   }
 }
 
+.how-grid .btn-pill {
+  width: 100%;
+  max-width: 236px;
+  margin-bottom: 40px;
+
+  @media (max-width: 500px) {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+.how-right {
+  @media (max-width: 500px) {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.how-step {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.how-steps {
+  @media (max-width: 500px) {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
 .how-step span {
   font-weight: 600;
   font-style: Semi Bold;
@@ -1568,7 +1599,6 @@ h1.display {
   font-size: 16px;
   margin-top: 0;
   line-height: 110%;
-  padding-top: 10px;
 
   @media (max-width: 500px) {
     font-family: "Inter", sans-serif;
