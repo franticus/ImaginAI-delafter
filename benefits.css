@@ -2,7 +2,6 @@
 	font-family: "Inter", sans-serif;
 	width: 100%;
 	max-width: 1600px;
-	margin: 0 auto;
 	padding: 0 80px;
 }
 
@@ -237,5 +236,10 @@
 
 	.benefits_item_text-description {
 		max-width: 183px;
+	}
+
+	.benefits-cta-wrap .btn {
+		width: 100%;
+		max-width: 100%;
 	}
 }
