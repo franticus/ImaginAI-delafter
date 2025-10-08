@@ -242,4 +242,9 @@
 		width: 100%;
 		max-width: 100%;
 	}
+
+	.benefits_item_title_link {
+		padding-top: 15px;
+		font-size: 14px;
+	}
 }
