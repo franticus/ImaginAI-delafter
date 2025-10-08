@@ -525,7 +525,7 @@ h1.display {
   padding: 0 80px;
 
   @media (max-width: 900px) {
-    padding: 0 10px;
+    padding: 0;
   }
 }
 
@@ -617,7 +617,6 @@ h1.display {
   width: 200px;
   height: 200px;
   border-radius: 14px;
-  border: 1px solid var(--line);
 }
 
 .how-right {
@@ -694,7 +693,7 @@ h1.display {
 @media (max-width: 600px) {
   .how_img_container {
     justify-content: flex-start;
-    padding: 10px 0 0 10px;
+    padding: 10px 0 0 0px;
     gap: 10px;
   }
 }
@@ -716,6 +715,7 @@ h1.display {
 .footer-v2 a:hover {
   cursor: pointer;
   color: #f550a2;
+  font-style: italic;
   transition: color 0.3s ease;
 }
 
@@ -2826,7 +2826,7 @@ h1.display {
 .container_header_img {
   width: 100%;
   margin: 0 auto;
-  max-width: 1600px;
+  // max-width: 1600px;
 
   background: #0b0c0d url(assets/hero_1.jpg);
   background-size: cover;
@@ -3169,8 +3169,7 @@ h1.display {
   @media (max-width: 900px) {
     flex: 0 0 auto;
     width: auto;
-    padding-bottom: 0;
-    scroll-snap-align: start;
+    padding: 0 10px;
   }
 }
 
@@ -3185,10 +3184,9 @@ h1.display {
   @media (max-width: 900px) {
     flex: 0 0 auto;
     width: auto;
-    padding-bottom: 0;
     justify-content: center;
     gap: 15px;
-    scroll-snap-align: start;
+    padding: 0 10px;
   }
 }
 
@@ -3198,7 +3196,7 @@ h1.display {
   justify-content: space-evenly;
   flex-direction: row;
   gap: 15px;
-  // padding-bottom: 25px;
+  padding: 0 10px;
 
   @media (max-width: 900px) {
     flex: 0 0 auto;
